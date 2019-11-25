@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="prycomegana">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+		<wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="postgresql-42.2.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/prycomegana/src/main/webapp/WEB-INF/views/postgresql-42.2.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-digester-2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/prycomegana/src/main/webapp/WEB-INF/views/librerias/commons-digester-2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.lowagie.text-2.1.7.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/prycomegana/src/main/webapp/WEB-INF/views/librerias/com.lowagie.text-2.1.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-beanutils-1.8.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/prycomegana/src/main/webapp/WEB-INF/views/librerias/commons-beanutils-1.8.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-api-1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/prycomegana/src/main/webapp/WEB-INF/views/librerias/commons-logging-api-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-javaflow-1209105.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/prycomegana/src/main/webapp/WEB-INF/views/librerias/commons-javaflow-1209105.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasperreports-6.3.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/prycomegana/src/main/webapp/WEB-INF/views/librerias/jasperreports-6.3.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/prycomegana/src/main/webapp/WEB-INF/views/librerias/commons-collections-3.2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jcommon-1.0.23.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/usuario/eclipse-workspace/prycomegana/src/main/webapp/WEB-INF/views/librerias/jcommon-1.0.23.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jfreechart-1.0.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/usuario/eclipse-workspace/prycomegana/src/main/webapp/WEB-INF/views/librerias/jfreechart-1.0.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+		<property name="java-output-path" value="target/classes"/>
+        <property name="context-root" value="prycomegana"/>
+	</wb-module>
+</project-modules>
